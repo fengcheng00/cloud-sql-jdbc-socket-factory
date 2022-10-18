@@ -9,6 +9,17 @@ $ gcloud auth application-default login
 After logged into gcp, a default application_default_credentials.json file will be created. Set the full path file
 to GOOGLE_APPLICATION_CREDENTIALS variable.
 
+Below is the example of the json file:
+```json
+{
+  "client_id": "764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com",
+  "client_secret": "d-FL95Q19q7MQmFpd7hHD0Ty",
+  "quota_project_id": "usa-cisionone-dev-001",
+  "refresh_token": "1//04Jfmx8VK3KA5CgYIARAAGAQSNwF-L9Irf1SI53y-5e8i-hlqPgDHvvt8Wtc6zeMhQMYVtcZxc1zA9d3pb9tksq-cqDt2G0CjfJM",
+  "type": "authorized_user"
+}
+```
+
 ``
 $ export GOOGLE_APPLICATION_CREDENTIALS="/Users/feng.cheng/.config/gcloud/application_default_credentials.json"
 ``
